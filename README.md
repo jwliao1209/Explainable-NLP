@@ -33,6 +33,12 @@ To generate the submission, you can run this command:
 generate_submission.py
 ```
 
+## Reproduce
+- model weight:
+https://drive.google.com/drive/folders/1aeQFAZWjX1iHJKx1bLSuhTdI46HdPmHa?usp=sharing
+
+
+
 
 ## Citation
 ```
