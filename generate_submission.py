@@ -16,9 +16,9 @@ def parse_arguments():
     parser.add_argument('--test_file', type=str,
                         default="Batch_answers - test_data(no_label).csv")
     parser.add_argument('--q_file', type=str,
-                        default="prediction_t5_base_qr_q_bs8_beam1")
+                        default="t5_small_qr_q_bs4_beam1.csv")
     parser.add_argument('--r_file', type=str,
-                        default="prediction_t5_base_qr_r_bs8_beam1")
+                        default="t5_small_qr_r_bs4_beam1.csv")
     parser.add_argument('--summary_type', type=str, default="sep")
 
     return parser.parse_args()
