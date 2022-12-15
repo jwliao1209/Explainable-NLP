@@ -21,7 +21,7 @@ def compute_df_list_len(df_list):
     return [compute_len(df) for df in df_list]
 
 
-def ensemble(df_list):
+def aggregate(df_list):
     id_list = df_list[0]['id']
     q_list = []
     r_list = []
@@ -33,9 +33,9 @@ def ensemble(df_list):
         q_list.append(df_list[q_index].iloc[i]['q'])
         r_list.append(df_list[r_index].iloc[i]['r'])
 
-    ensemble_df = pd.DataFrame({'id': id_list, 'q': q_list, 'r': r_list})
+    aggregation_df = pd.DataFrame({'id': id_list, 'q': q_list, 'r': r_list})
 
-    return ensemble_df
+    return aggregation_df
 
 
 if __name__ == '__main__':
@@ -45,5 +45,5 @@ if __name__ == '__main__':
     ]
     df_list = read_csv_file(df_files)
     df_files = compute_df_list_len(df_list)
-    ensemble_df = ensemble(df_files)
-    ensemble_df.to_csv(os.path.join(SUBMISSION_FILE, 'ensemble.csv'), index=False)
+    aggregation_df = aggregate(df_files)
+    aggregation_df.to_csv(os.path.join(SUBMISSION_FILE, 'ensemble.csv'), index=False)
