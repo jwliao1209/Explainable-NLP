@@ -111,7 +111,7 @@ To reproduce our submission, please do the following steps:
 6. [Aggregate submissions](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/#Aggregate-submissions)
 
 
-## Operating System
+## Operating System and Device
 We develop the code on Ubuntu 22.04 operating system and use python 3.9.15 version. All trainings are performed on a server with a single NVIDIA 3090 GPU.
 
 
