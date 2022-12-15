@@ -1,9 +1,30 @@
 # Interpretive_Information_Labeling_for_NLP
 
+
 ## Getting the code
 You can download all the files in this repository by cloning this repository:  
 ```
 git clone https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP.git
+```
+
+
+## Setting the environment
+To set the environment, you can run this command:
+```
+pip install -r requirements.txt
+```
+
+The requirements.txt include the following package:
+```
+accelerate >= 0.12.0
+datasets >= 1.8.0
+sentencepiece != 0.1.92
+protobuf
+rouge-score
+nltk
+py7zr
+torch >= 1.3
+evaluate
 ```
 
 
@@ -26,14 +47,14 @@ bash train.sh
 ```
 
 
-## Testing
-To test the model, you can run this command:
+## Inference
+To inference the model, you can run this command:
 ```
 python infer.sh
 ```
 
 
-## Post processing
+## Generate submission file
 To generate the submission, you can run this command:
 ```
 generate_submission.py
@@ -46,7 +67,6 @@ To reproduce our submission, please do the following steps:
 2. [Install the package](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/blob/main/requirements.txt)
 3. [Download the dataset and checkpoint](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/#Dataset-and-Checkpoint)
 4. [Inference](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/#Inference)
-
 
 
 ## Citation
