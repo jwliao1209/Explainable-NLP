@@ -87,10 +87,17 @@ python run_summarization.py \
 ```
 
 
-## Generate submission file
-To generate the submission, you can run this command:
+## Generate submission
+To generate the submission file, you can run this command:
 ```
 generate_submission.py
+```
+
+
+## Aggregate submission files
+To aggregate the submission files, you can run this command:
+```
+aggregate_submission.py
 ```
 
 
@@ -100,6 +107,8 @@ To reproduce our submission, please do the following steps:
 2. [Install the package](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/blob/main/requirements.txt)
 3. [Download the dataset and checkpoint](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/#Dataset-and-Checkpoint)
 4. [Inference](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/#Inference)
+5. [Generate submission](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/#Generate-submission-file)
+6. [Aggregate submissions](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/#Aggregate-submission-files)
 
 
 ## Citation
