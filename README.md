@@ -111,6 +111,12 @@ To reproduce our submission, please do the following steps:
 6. [Aggregate submissions](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/#Aggregate-submissions)
 
 
+## Acknowledgement
+We thank the authors of these repositories:
+- Hugging Face: https://github.com/huggingface
+- pytorch-seq2seq: https://github.com/bentrevett/pytorch-seq2seq
+
+
 ## Citation
 ```
 @misc{
