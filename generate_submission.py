@@ -57,7 +57,7 @@ if __name__ == '__main__':
 
     if args.summary_type == "all":
         pred_q = split_q_and_r(pred_q, "q")
-        pred_r = split_q_and_r(pred_q, "r")
+        pred_r = split_q_and_r(pred_r, "r")
 
     test_pred_df = pd.DataFrame({"id": test_df["id"], "q": pred_q, "r": pred_r})
     os.makedirs(args.submit_root, exist_ok=True)
