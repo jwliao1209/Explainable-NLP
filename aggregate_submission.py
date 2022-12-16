@@ -1,10 +1,24 @@
 import os
+import argparse
 import numpy as np
 import pandas as pd
 from nltk.tokenize import word_tokenize
 
 
 SUBMISSION_FILE = 'submission'
+
+def parse_arguments():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        '--df_files', type=str,
+        default=[
+        't5_small_qr_q_qr_r_bs4_beam1.csv',
+        't5_base_qr_q_qr_r_bs4_beam1.csv',
+        ],
+    nargs='+')
+
+    return parser.parse_args()
+
 
 def read_csv_file(df_files):
     return [pd.read_csv(os.path.join(SUBMISSION_FILE, df)) for df in df_files]
@@ -39,11 +53,8 @@ def aggregate(df_list):
 
 
 if __name__ == '__main__':
-    df_files = [
-        't5_small_qr_q_qr_r_bs4_beam1.csv',
-        't5_base_qr_q_qr_r_bs4_beam1.csv'
-    ]
-    df_list = read_csv_file(df_files)
+    args = parse_arguments()
+    df_list = read_csv_file(args.df_files)
     df_files = compute_df_list_len(df_list)
     aggregation_df = aggregate(df_files)
     aggregation_df.to_csv(os.path.join(SUBMISSION_FILE, 'ensemble.csv'), index=False)
