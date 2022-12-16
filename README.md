@@ -50,6 +50,8 @@ nltk
 py7zr
 torch >= 1.3
 evaluate
+numpy
+pandas
 ```
 
 
