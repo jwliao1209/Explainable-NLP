@@ -28,7 +28,7 @@ evaluate
 ```
 
 
-## Dataset and Checkpoint
+## Download Dataset and Checkpoint
 You can download the dataset and checkpoint from our Google Drive:
 https://drive.google.com/drive/folders/1aeQFAZWjX1iHJKx1bLSuhTdI46HdPmHa?usp=sharing
 
@@ -105,7 +105,7 @@ aggregate_submission.py
 To reproduce our submission, please do the following steps:
 1. [Getting the code](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/#Getting-the-code)
 2. [Setting the environment](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/#Setting-the-environment)
-3. [Download the dataset and checkpoint](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/#Dataset-and-Checkpoint)
+3. [Download dataset and checkpoint](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/#Dataset-and-Checkpoint)
 4. [Inference](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/#Inference)
 5. [Generate submission](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/#Generate-submission)
 6. [Aggregate submissions](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/#Aggregate-submissions)
