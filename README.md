@@ -53,7 +53,7 @@ evaluate
 ```
 
 
-## Download Dataset and Checkpoint
+## Download the checkpoint
 You can download the dataset and checkpoint from our Google Drive:
 https://drive.google.com/drive/folders/1aeQFAZWjX1iHJKx1bLSuhTdI46HdPmHa?usp=sharing
 
@@ -116,7 +116,7 @@ python run_summarization.py \
 To reproduce our submission, please do the following steps:
 1. [Getting the code](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/#Getting-the-code)
 2. [Setting the environment](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/#Setting-the-environment)
-3. [Download dataset and checkpoint](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/#Dataset-and-Checkpoint)
+3. [Download the checkpoint](https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP/#Dataset-and-Checkpoint)
 4. Run the command:
 ```
 bash reproduce.sh
