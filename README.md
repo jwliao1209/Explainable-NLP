@@ -13,7 +13,7 @@ git clone https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_
       |   ├──t5_small_qr_r_bs4
       |   ├──t5_small_qr_q_bs4
       |   ├──t5_base_qr_r_bs4
-      |   └──t5_base_qr_r_bs4
+      |   └──t5_base_qr_q_bs4
       ├──dataset
       |   ├──Batch_answers - test_data(no_label).csv
       |   ├──Batch_answers - train_data (no-blank).csv
