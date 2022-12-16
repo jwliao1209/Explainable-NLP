@@ -7,6 +7,29 @@ You can download all the files in this repository by cloning this repository:
 git clone https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_NLP.git
 ```
 
+## Repository structure
+      .
+      ├──checkpoint
+      |   ├──t5_small_qr_r_bs4
+      |   ├──t5_small_qr_q_bs4
+      |   ├──t5_base_qr_r_bs4
+      |   └──t5_base_qr_r_bs4
+      ├──dataset
+      |   ├──Batch_answers - test_data(no_label).csv
+      |   ├──Batch_answers - train_data (no-blank).csv
+      |   ├──test_dataset_all_q.json
+      |   ├──test_dataset_all_r.json
+      |   ├──train_dataset_all_q.json
+      |   └──train_dataset_all_r.json
+      ├──aggregate_submission.py
+      ├──generate_dataset.py
+      ├──generate_submission.py 
+      ├──infer.sh
+      ├──reproduce.sh
+      ├──requirements.txt
+      ├──run_summarization.py
+      └──train.sh
+
 
 ## Setting the environment
 To set the environment, you can run this command:
@@ -51,8 +74,8 @@ export CUDA_VISIBLE_DEVICES=0
 python run_summarization.py \
     --do_train \
     --model_name_or_path t5-small \
-    --train_file dataset/train_dataset_qr_q.json \
-    --output_dir checkpoint/t5_base_qr_q_bs4 \
+    --train_file dataset/train_dataset_all_q.json \
+    --output_dir checkpoint/t5_base_all_q_bs4 \
     --per_device_train_batch_size=4 \
     --gradient_accumulation_steps=4 \
     --predict_with_generate \
