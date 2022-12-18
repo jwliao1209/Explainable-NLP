@@ -37,6 +37,8 @@ git clone https://github.com/Jia-Wei-Liao/Interpretive_Information_Labeling_for_
 ## Setting the environment
 To set the environment, you can run this command:
 ```
+conda create --name explainable_nlp python=3.7.4
+source activate explainable_nlp
 pip install -r requirements.txt
 ```
 
