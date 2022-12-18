@@ -1,5 +1,6 @@
 # Interpretive_Information_Labeling_for_NLP
 
+This repository is code of AI CUP 2022 Fall Interpretive Information Labeling for Natural Language Processing Competition. We achieved a public ranking of 16th and a private ranking of 14th, corresponding to scores of 0.805996 and 0.855363, respectively.
 
 ## Getting the code
 You can download all the files in this repository by cloning this repository:  
@@ -123,6 +124,23 @@ To reproduce our submission, please do the following steps:
 ```
 bash reproduce.sh
 ```
+
+
+## Leaderboard
+<table>
+  <tr>
+    <td>Public Score</td>
+    <td>Public Rank</td>
+    <td>Private Score</td>
+    <td>Private Rank</td>
+  </tr>
+  <tr>
+    <td>0.805996</td>
+    <td>16 / 255</td>
+    <td>0.855363</td>
+    <td>14 / 255</td>
+  </tr>
+<table>
 
 
 ## Operating System and Device
