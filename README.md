@@ -1,4 +1,4 @@
-# Interpretive Information Labeling for NLP
+# Explainable Information Tagging for NLP
 
 This repository is code of AI CUP 2022 Fall Interpretive Information Labeling for Natural Language Processing Competition. We achieved a public ranking of 16th and a private ranking of 14th, corresponding to scores of 0.805996 and 0.855363, respectively.
 
