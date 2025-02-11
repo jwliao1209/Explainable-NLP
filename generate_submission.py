@@ -34,11 +34,11 @@ def read_txt(path):
 
     return data_list
 
-def split_q_and_r(data_list):
+def split_q_and_r(data_list, out):
     out_list = []
     for data in zip(data_list):
         output = data.strip('\n').strip('"DISAGREE"').strip('"AGREE"').split('[SEP]')
-        if output == "q":
+        if out == "q":
             out_list.append(output[0])
         else:
             if len(out_list) > 1:
